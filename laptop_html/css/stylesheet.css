@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 52px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+.nav {
+    display: flex;
+}
+.nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color:  white;
+    cursor: pointer;
+}
+.nav div {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+.nav_btn{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+main {
+    display: grid;
+    position: relative;
+    top: 52px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 500px;
+}
+.card{
+    margin: 2em;
+}
+footer{
+    background-color: rgb(64, 64, 64);
+    width: 100vw;
+    position: relative;
+    top: 50px;
+    height: auto;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+}

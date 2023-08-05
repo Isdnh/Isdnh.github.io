@@ -1,0 +1,24 @@
+.nav a:hover {
+    background-color: rgb(141, 141, 141);
+}
+
+@media (max-width: 900px) {
+    .nav_btn {
+        display: block;
+        border: none;
+        background-color: black;
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 2px;
+        color: white;
+        cursor: pointer;
+    }
+    .drop:hover .nav {
+        display: block;
+        position: absolute;
+        background-color: black;
+    }
+    .nav {
+        display: none;
+    }
+}

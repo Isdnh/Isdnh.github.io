@@ -1,0 +1,42 @@
+.nav a:hover {
+    background-color: rgb(141, 141, 141);
+}
+
+@media (max-width: 900px) {
+    .nav_btn {
+        display: block;
+        border: none;
+        background-color: black;
+        font-size: 2em;
+        padding-inline: 10px;
+        padding-bottom: 2px;
+        color: white;
+        cursor: pointer;
+    }
+    .drop:hover .nav {
+        display: block;
+        position: absolute;
+        background-color: black;
+    }
+    .nav {
+        display: none;
+    }
+}
+@media (max-width: 800px){
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, 300px);
+    }
+    footer {
+        top: 1852px;
+    }
+}
+@media (max-width: 500px){
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(12, 300px);
+    }
+    footer {
+        top: 3652px;
+    }
+}
