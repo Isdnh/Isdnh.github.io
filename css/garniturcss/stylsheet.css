@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 52px;
+    display: block;
+    position: fixed;
+    width: 100%;
+    background-color: black;
+    z-index: 1000;
+}
+.nav {
+    display: flex;
+}
+.nav a {
+    display: block;
+    padding: 1em;
+    text-decoration: none;
+    color:  white;
+    cursor: pointer;
+}
+.nav div {
+    display: block;
+    padding: 1em;
+    color: white;
+}
+.nav_btn{
+    display: none;
+    position: absolute;
+    left: 0;
+}
+main {
+    display: grid;
+    position: relative;
+    top: 52px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: repeat(4, 300px);
+}
+.card{
+    margin: 2em;
+}
+.text{
+    text-align: center;
+}
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    background-color: rgb(64, 64, 64);
+    position: absolute;
+    top: 1252px;
+    color: white;
+}
