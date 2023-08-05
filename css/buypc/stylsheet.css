@@ -6,7 +6,7 @@ header {
     height: 52px;
     display: block;
     position: fixed;
-    width: 100%;
+    width: 100vw;
     background-color: black;
     z-index: 1000;
 }
@@ -49,6 +49,6 @@ footer {
     grid-template-rows: auto;
     background-color: rgb(64, 64, 64);
     position: absolute;
-    top: 1252px;
+    top: 1260px;
     color: white;
 }

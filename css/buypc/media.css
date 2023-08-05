@@ -28,7 +28,7 @@
         grid-template-rows: repeat(6, 300px);
     }
     footer {
-        top: 1852px;
+        top: 1900px;
     }
 }
 @media (max-width: 500px){
@@ -37,6 +37,6 @@
         grid-template-rows: repeat(12, 300px);
     }
     footer {
-        top: 3652px;
+        top: 3700px;
     }
 }
