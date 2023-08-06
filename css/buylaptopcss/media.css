@@ -30,6 +30,8 @@
     }
     footer {
         top: 1900px;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
     }
 }
 @media (max-width: 500px) {
@@ -40,5 +42,7 @@
     }
     footer{
         top: 3700px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
     }
 }
